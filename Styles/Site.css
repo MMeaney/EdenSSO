@@ -1,0 +1,112 @@
+﻿html, body { height: 100%; } 
+.container { width: 95%; }  
+.wrapper { min-height: 100%; height: auto !important;	height: 100%;	margin: 0 auto -4em; }
+.spanUserExternalLinks { font-size: 10pt; color:Gray; }
+.push {	height: 4em; }
+.footercopyright { height: 4em; }
+.footercopyrightdivcss { height: 4em;	background-color: #F8F8F8; border-color: #E7E7E7; border-style: solid; border-width: 1px 0px 0px 0px;
+	text-align: center; vertical-align: middle;	font-size: 10pt; }
+.table-nonfluid {
+	width: auto !important; 
+	border-collapse: collapse !important;
+  border: solid #ccc 1px !important;
+  border-radius: 6px !important;
+} 
+.searchEmail { width: 350px; height: 32px; } 
+div.divSeperator { height: 2.5em; background-color: #3185a9; color: #FFFFFF; padding-top: 0.5em; font-size: 11pt; font-weight: bold; text-align: center; }
+div.divRoundedTable { color:#FFFFFF !important; padding: 0em !important; border:none; }  
+caption  
+{
+  font-family: Arial, sans-serif; 
+  color: black; 
+  font-size: 14px; 
+  font-weight: bold;       
+  padding: 7px 3px 3px 7px; 
+  text-align: left; 
+  white-space: nowrap; 
+  background-color: #cceeff;   
+  border-left:  solid #ccc 1px;
+  border-right: solid #ccc 1px;
+  border-top:   solid #ccc 1px;   
+  border-top-left-radius:   6px !important;
+  border-top-right-radius:  6px !important;   
+  height: 35px;
+}
+.table-curved {
+  border-radius: 6px !important;
+	width: auto !important;
+	height: auto !important; 
+	border-collapse: collapse !important;
+  border: solid #ccc 1px !important;
+}
+.table-curved td, .table-curved tr, .table-curved th {
+  border-left:  1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top:   1px solid #ccc;
+}
+.table-curved th:only-child{
+  border-top-left-radius:   6px !important;
+  border-top-right-radius:  6px !important;
+}
+.table-curved tr:last-child td:first-child {
+  border-bottom-left-radius: 6px !important;
+}
+.table-curved tr:last-child td:last-child {
+  border-bottom-right-radius: 6px !important;
+}
+    
+/*gridview*/
+.table-paging table tbody  tr  td a ,
+.table-paging table tbody  tr  td  span 
+{
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.table-paging table > tbody > tr > td > span {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.table-paging table > tbody > tr > td:first-child > a,
+.table-paging table > tbody > tr > td:first-child > span 
+{
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.table-paging table > tbody > tr > td:last-child > a,
+.table-paging table > tbody > tr > td:last-child > span 
+{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.table-paging table > tbody > tr > td > a:hover,
+.table-paging table > tbody > tr > td > span:hover,
+.table-paging table > tbody > tr > td > a:focus,
+.table-paging table > tbody > tr > td > span:focus 
+{
+  z-index: 2;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+    
+.titledivcss {
+  height: 50px;	background-color: #F8F8F8; border-color: #E7E7E7; border-style: solid; border-width: 0px 0px 1px 0px;
+	text-align: center; vertical-align: middle;	    
+	color: #111; font-family: 'Lato', sans-serif; font-size: 25px; font-weight: 500; line-height: 50px; 
+}
+    
